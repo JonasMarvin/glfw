@@ -25,7 +25,7 @@ project "GLFW"
 
 	filter "system:windows"
       		systemversion "latest"
-      		staticruntime "On"
+      		staticruntime "off"
 
       		files
       		{
@@ -48,8 +48,11 @@ project "GLFW"
 		}
 	filter "configurations:Debug"
 		runtime "Debug"
+		staticruntime "off"
+		optimize "off"
 		symbols "on"
 
 	filter "configurations:Release"
 		runtime "Release"
+		staticruntime "off"
 		optimize "on"
