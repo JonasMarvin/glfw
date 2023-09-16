@@ -2,8 +2,8 @@
 build
 
 # Build results
-bin
-bin-int
+bin/
+bin-int/
 
 # Visual Studio clutter
 _ReSharper*
@@ -104,4 +104,3 @@ tests/title
 tests/triangle-vulkan
 tests/window
 tests/windows
-
